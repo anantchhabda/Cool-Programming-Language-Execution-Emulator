@@ -1,0 +1,11 @@
+
+int a;
+void do_nothing(void){}
+
+int main(void)
+{
+	a = 5;
+	do_nothing();
+	return a + 10;
+}
+	
